@@ -15,8 +15,8 @@ images:
     newName: quay.io/redhat-appstudio/tekton-results-api
     newTag: dd067cad783501dc87fdec7285ca62e573fd85e3
   - name: ko://github.com/tektoncd/results/cmd/watcher
-    newName: quay.io/redhat-appstudio/tekton-results-watcher
-    newTag: dd067cad783501dc87fdec7285ca62e573fd85e3
+    newName: quay.io/pmacik-testing/watcher-83f971ea227fb24157c0c699b824a628
+    newTag: "pr712_20240214_193733"
   - name: ko://github.com/tektoncd/results/tools/migrator
     newName: quay.io/redhat-appstudio/tekton-results-migrator
     newTag: dd067cad783501dc87fdec7285ca62e573fd85e3
