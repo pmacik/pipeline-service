@@ -13,10 +13,10 @@ resources:
 images:
   - name: ko://github.com/tektoncd/results/cmd/api
     newName: quay.io/gabemontero/results-api
-    newTag: v1
+    newTag: v2
   - name: ko://github.com/tektoncd/results/cmd/watcher
     newName: quay.io/gabemontero/results-watcher
-    newTag: v3
+    newTag: v4
 
 # generate a new configmap with updated values (logs api, db ssl mode) and replace the default one
 configMapGenerator:
