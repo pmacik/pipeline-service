@@ -44,6 +44,8 @@ spec:
               "50",
               "-burst",
               "100",
+              "-update_log_timeout",
+              "2m",
             ]
           resources:
             requests:
