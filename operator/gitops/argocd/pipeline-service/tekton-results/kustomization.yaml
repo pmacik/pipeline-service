@@ -13,7 +13,7 @@ resources:
 images:
   - name: ko://github.com/tektoncd/results/cmd/api
     newName: quay.io/gabemontero/results-api
-    newTag: v2
+    newTag: v3
   - name: ko://github.com/tektoncd/results/cmd/watcher
     newName: quay.io/gabemontero/results-watcher
     newTag: v4
